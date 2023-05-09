@@ -26,7 +26,10 @@
         "name": "ToastViewSwift",
         "printedName": "ToastViewSwift",
         "declKind": "Import",
-        "moduleName": "Magic"
+        "moduleName": "Magic",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -116,56 +119,56 @@
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 425,
       "length": 12,
       "value": "\"airpodspro\""
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "StringLiteral",
-      "offset": 595,
+      "offset": 616,
       "length": 13,
       "value": "\"Hurraaa,...\""
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 704,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "StringLiteral",
-      "offset": 692,
+      "offset": 713,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "IntegerLiteral",
-      "offset": 713,
+      "offset": 734,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "IntegerLiteral",
-      "offset": 717,
+      "offset": 738,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 743,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Magic\/Magic.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 757,
       "length": 13,
       "value": "\"Hurraaa,...\""
     }
