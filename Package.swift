@@ -8,6 +8,9 @@ let package = Package(
     products: [
         .library(name: "MagicKit", targets: ["Magic"])
     ],
+    dependencies: [
+        .package(url: "https://github.com/BastiaanJansen/toast-swift", from: "1.3.1")
+    ],
     targets: [
         .binaryTarget(name: "Magic", path: "Frameworks/Magic.xcframework")
     ]
