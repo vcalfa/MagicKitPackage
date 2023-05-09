@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "MagicKit", targets: ["Magic"])
     ],
     targets: [
-        .binaryTarget(name: "Magic", path: "Magic.xcframework")
+        .binaryTarget(name: "Magic", path: "Frameworks/Magic.xcframework")
     ]
 )
