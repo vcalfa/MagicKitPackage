@@ -6,12 +6,14 @@ let package = Package(
     name: "MagicKit",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "MagicKit", targets: ["Magic"])
+        .library(name: "MagicKit", targets: ["Magic"]),
+        .library(name: "ToastViewSwift", targets: ["Toast"])
     ],
     dependencies: [
         .package(url: "https://github.com/BastiaanJansen/toast-swift", from: "1.3.1")
     ],
     targets: [
-        .binaryTarget(name: "Magic", path: "Frameworks/Magic.xcframework")
+        .binaryTarget(name: "Magic", path: "Frameworks/Magic.xcframework"),
+        .target(name: "Toast", dependencies: [.target(name: "Toast")])
     ]
 )
