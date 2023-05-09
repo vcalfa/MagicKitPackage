@@ -1,0 +1,3320 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppleToastView",
+        "printedName": "AppleToastView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(child:minHeight:minWidth:darkBackgroundColor:lightBackgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppleToastView",
+                "printedName": "ToastViewSwift.AppleToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)AppleToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift05AppleaB0C5child9minHeight0F5Width19darkBackgroundColor05lightjK0ACSo6UIViewC_14CoreFoundation7CGFloatVAMSo7UIColorCAOtcfc",
+            "mangledName": "$s14ToastViewSwift05AppleaB0C5child9minHeight0F5Width19darkBackgroundColor05lightjK0ACSo6UIViewC_12CoreGraphics7CGFloatVAMSo7UIColorCAOtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createView",
+            "printedName": "createView(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift05AppleaB0C06createB03foryAA0A0C_tF",
+            "mangledName": "$s14ToastViewSwift05AppleaB0C06createB03foryAA0A0C_tF",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ToastViewSwift@objc(cs)AppleToastView(im)traitCollectionDidChange:",
+            "mangledName": "$s14ToastViewSwift05AppleaB0C24traitCollectionDidChangeyySo07UITraitF0CSgF",
+            "moduleName": "ToastViewSwift",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppleToastView",
+                "printedName": "ToastViewSwift.AppleToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)AppleToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ToastViewSwift@objc(cs)AppleToastView(im)initWithFrame:",
+            "mangledName": "$s14ToastViewSwift05AppleaB0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "ToastViewSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToastViewSwift@objc(cs)AppleToastView",
+        "mangledName": "$s14ToastViewSwift05AppleaB0C",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ToastView",
+            "printedName": "ToastView",
+            "usr": "s:14ToastViewSwift0aB0P",
+            "mangledName": "$s14ToastViewSwift0aB0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IconAppleToastView",
+        "printedName": "IconAppleToastView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultImageTint",
+            "printedName": "defaultImageTint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift09IconAppleaB0C16defaultImageTintSo7UIColorCvpZ",
+            "mangledName": "$s14ToastViewSwift09IconAppleaB0C16defaultImageTintSo7UIColorCvpZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift09IconAppleaB0C16defaultImageTintSo7UIColorCvgZ",
+                "mangledName": "$s14ToastViewSwift09IconAppleaB0C16defaultImageTintSo7UIColorCvgZ",
+                "moduleName": "ToastViewSwift",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:imageTint:title:subtitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IconAppleToastView",
+                "printedName": "ToastViewSwift.IconAppleToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)IconAppleToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift09IconAppleaB0C5image0F4Tint5title8subtitleACSo7UIImageC_So7UIColorCSgSo18NSAttributedStringCANSgtcfc",
+            "mangledName": "$s14ToastViewSwift09IconAppleaB0C5image0F4Tint5title8subtitleACSo7UIImageC_So7UIColorCSgSo18NSAttributedStringCANSgtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:imageTint:title:subtitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IconAppleToastView",
+                "printedName": "ToastViewSwift.IconAppleToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)IconAppleToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift09IconAppleaB0C5image0F4Tint5title8subtitleACSo7UIImageC_So7UIColorCSgS2SSgtcfc",
+            "mangledName": "$s14ToastViewSwift09IconAppleaB0C5image0F4Tint5title8subtitleACSo7UIImageC_So7UIColorCSgS2SSgtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IconAppleToastView",
+                "printedName": "ToastViewSwift.IconAppleToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)IconAppleToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ToastViewSwift@objc(cs)IconAppleToastView(im)initWithFrame:",
+            "mangledName": "$s14ToastViewSwift09IconAppleaB0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "ToastViewSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToastViewSwift@objc(cs)IconAppleToastView",
+        "mangledName": "$s14ToastViewSwift09IconAppleaB0C",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIStackView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIStackView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TextToastView",
+        "printedName": "TextToastView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:subtitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextToastView",
+                "printedName": "ToastViewSwift.TextToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)TextToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift04TextaB0C_8subtitleACSo18NSAttributedStringC_AFSgtcfc",
+            "mangledName": "$s14ToastViewSwift04TextaB0C_8subtitleACSo18NSAttributedStringC_AFSgtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:subtitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextToastView",
+                "printedName": "ToastViewSwift.TextToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)TextToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift04TextaB0C_8subtitleACSS_SSSgtcfc",
+            "mangledName": "$s14ToastViewSwift04TextaB0C_8subtitleACSS_SSSgtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextToastView",
+                "printedName": "ToastViewSwift.TextToastView",
+                "usr": "c:@M@ToastViewSwift@objc(cs)TextToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ToastViewSwift@objc(cs)TextToastView(im)initWithFrame:",
+            "mangledName": "$s14ToastViewSwift04TextaB0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "ToastViewSwift",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToastViewSwift@objc(cs)TextToastView",
+        "mangledName": "$s14ToastViewSwift04TextaB0C",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIStackView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIStackView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Toast",
+        "printedName": "Toast",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Direction",
+            "printedName": "Direction",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "top",
+                "printedName": "top",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.Direction.Type) -> ToastViewSwift.Toast.Direction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "ToastViewSwift.Toast.Direction",
+                        "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.Direction.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "ToastViewSwift.Toast.Direction",
+                            "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C9DirectionO3topyA2EmF",
+                "mangledName": "$s14ToastViewSwift0A0C9DirectionO3topyA2EmF",
+                "moduleName": "ToastViewSwift"
+              },
+              {
+                "kind": "Var",
+                "name": "bottom",
+                "printedName": "bottom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.Direction.Type) -> ToastViewSwift.Toast.Direction",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Direction",
+                        "printedName": "ToastViewSwift.Toast.Direction",
+                        "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.Direction.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Direction",
+                            "printedName": "ToastViewSwift.Toast.Direction",
+                            "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C9DirectionO6bottomyA2EmF",
+                "mangledName": "$s14ToastViewSwift0A0C9DirectionO6bottomyA2EmF",
+                "moduleName": "ToastViewSwift"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "ToastViewSwift.Toast.Direction",
+                    "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "ToastViewSwift.Toast.Direction",
+                    "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14ToastViewSwift0A0C9DirectionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14ToastViewSwift0A0C9DirectionO2eeoiySbAE_AEtFZ",
+                "moduleName": "ToastViewSwift",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14ToastViewSwift0A0C9DirectionO9hashValueSivp",
+                "mangledName": "$s14ToastViewSwift0A0C9DirectionO9hashValueSivp",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14ToastViewSwift0A0C9DirectionO9hashValueSivg",
+                    "mangledName": "$s14ToastViewSwift0A0C9DirectionO9hashValueSivg",
+                    "moduleName": "ToastViewSwift",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14ToastViewSwift0A0C9DirectionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14ToastViewSwift0A0C9DirectionO4hash4intoys6HasherVz_tF",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14ToastViewSwift0A0C9DirectionO",
+            "mangledName": "$s14ToastViewSwift0A0C9DirectionO",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AnimationType",
+            "printedName": "AnimationType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "slide",
+                "printedName": "slide",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.AnimationType.Type) -> (CoreGraphics.CGFloat, CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO5slideyAE14CoreFoundation7CGFloatV_AItcAEmF",
+                "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO5slideyAE12CoreGraphics7CGFloatV_AItcAEmF",
+                "moduleName": "ToastViewSwift",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "fade",
+                "printedName": "fade",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.AnimationType.Type) -> (CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(alphaValue: CoreGraphics.CGFloat)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO4fadeyAE14CoreFoundation7CGFloatV_tcAEmF",
+                "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO4fadeyAE12CoreGraphics7CGFloatV_tcAEmF",
+                "moduleName": "ToastViewSwift",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "scaleAndSlide",
+                "printedName": "scaleAndSlide",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.AnimationType.Type) -> (CoreGraphics.CGFloat, CoreGraphics.CGFloat, CoreGraphics.CGFloat, CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat, CoreGraphics.CGFloat, CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(scaleX: CoreGraphics.CGFloat, scaleY: CoreGraphics.CGFloat, x: CoreGraphics.CGFloat, y: CoreGraphics.CGFloat)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO13scaleAndSlideyAE14CoreFoundation7CGFloatV_A3ItcAEmF",
+                "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO13scaleAndSlideyAE12CoreGraphics7CGFloatV_A3ItcAEmF",
+                "moduleName": "ToastViewSwift",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "scale",
+                "printedName": "scale",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.AnimationType.Type) -> (CoreGraphics.CGFloat, CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat, CoreGraphics.CGFloat) -> ToastViewSwift.Toast.AnimationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(scaleX: CoreGraphics.CGFloat, scaleY: CoreGraphics.CGFloat)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO5scaleyAE14CoreFoundation7CGFloatV_AItcAEmF",
+                "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO5scaleyAE12CoreGraphics7CGFloatV_AItcAEmF",
+                "moduleName": "ToastViewSwift",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.AnimationType.Type) -> (CoreFoundation.CGAffineTransform) -> ToastViewSwift.Toast.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreFoundation.CGAffineTransform) -> ToastViewSwift.Toast.AnimationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(transformation: CoreFoundation.CGAffineTransform)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGAffineTransform",
+                                "printedName": "CoreFoundation.CGAffineTransform",
+                                "usr": "c:@S@CGAffineTransform"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO6customyAESo17CGAffineTransformV_tcAEmF",
+                "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO6customyAESo17CGAffineTransformV_tcAEmF",
+                "moduleName": "ToastViewSwift",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "default",
+                "printedName": "default",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ToastViewSwift.Toast.AnimationType.Type) -> ToastViewSwift.Toast.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "ToastViewSwift.Toast.AnimationType",
+                        "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ToastViewSwift.Toast.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "ToastViewSwift.Toast.AnimationType",
+                            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO7defaultyA2EmF",
+                "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO7defaultyA2EmF",
+                "moduleName": "ToastViewSwift",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14ToastViewSwift0A0C13AnimationTypeO",
+            "mangledName": "$s14ToastViewSwift0A0C13AnimationTypeO",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultImageTint",
+            "printedName": "defaultImageTint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A0C16defaultImageTintSo7UIColorCvpZ",
+            "mangledName": "$s14ToastViewSwift0A0C16defaultImageTintSo7UIColorCvpZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A0C16defaultImageTintSo7UIColorCvgZ",
+                "mangledName": "$s14ToastViewSwift0A0C16defaultImageTintSo7UIColorCvgZ",
+                "moduleName": "ToastViewSwift",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastView",
+                "printedName": "ToastViewSwift.ToastView",
+                "usr": "s:14ToastViewSwift0aB0P"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A0C4viewAA0aB0_pvp",
+            "mangledName": "$s14ToastViewSwift0A0C4viewAA0aB0_pvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastView",
+                    "printedName": "ToastViewSwift.ToastView",
+                    "usr": "s:14ToastViewSwift0aB0P"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A0C4viewAA0aB0_pvg",
+                "mangledName": "$s14ToastViewSwift0A0C4viewAA0aB0_pvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "ToastViewSwift.ToastDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvp",
+            "mangledName": "$s14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ToastViewSwift.ToastDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToastDelegate",
+                        "printedName": "ToastViewSwift.ToastDelegate",
+                        "usr": "s:14ToastViewSwift0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvg",
+                "mangledName": "$s14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ToastViewSwift.ToastDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToastDelegate",
+                        "printedName": "ToastViewSwift.ToastDelegate",
+                        "usr": "s:14ToastViewSwift0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvs",
+                "mangledName": "$s14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s14ToastViewSwift0A0C8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "text",
+            "printedName": "text(_:subtitle:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C4text_8subtitle6configACSo18NSAttributedStringC_AHSgAA0A13ConfigurationVtFZ",
+            "mangledName": "$s14ToastViewSwift0A0C4text_8subtitle6configACSo18NSAttributedStringC_AHSgAA0A13ConfigurationVtFZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "text",
+            "printedName": "text(_:subtitle:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C4text_8subtitle6configACSS_SSSgAA0A13ConfigurationVtFZ",
+            "mangledName": "$s14ToastViewSwift0A0C4text_8subtitle6configACSS_SSSgAA0A13ConfigurationVtFZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "default",
+            "printedName": "default(image:imageTint:title:subtitle:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSAttributedString?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAttributedString",
+                    "printedName": "Foundation.NSAttributedString",
+                    "usr": "c:objc(cs)NSAttributedString"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C7default5image0E4Tint5title8subtitle6configACSo7UIImageC_So7UIColorCSgSo18NSAttributedStringCAPSgAA0A13ConfigurationVtFZ",
+            "mangledName": "$s14ToastViewSwift0A0C7default5image0E4Tint5title8subtitle6configACSo7UIImageC_So7UIColorCSgSo18NSAttributedStringCAPSgAA0A13ConfigurationVtFZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "default",
+            "printedName": "default(image:imageTint:title:subtitle:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C7default5image0E4Tint5title8subtitle6configACSo7UIImageC_So7UIColorCSgS2SSgAA0A13ConfigurationVtFZ",
+            "mangledName": "$s14ToastViewSwift0A0C7default5image0E4Tint5title8subtitle6configACSo7UIImageC_So7UIColorCSgS2SSgAA0A13ConfigurationVtFZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "custom",
+            "printedName": "custom(view:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastView",
+                "printedName": "ToastViewSwift.ToastView",
+                "usr": "s:14ToastViewSwift0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C6custom4view6configAcA0aB0_p_AA0A13ConfigurationVtFZ",
+            "mangledName": "$s14ToastViewSwift0A0C6custom4view6configAcA0aB0_p_AA0A13ConfigurationVtFZ",
+            "moduleName": "ToastViewSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(view:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastView",
+                "printedName": "ToastViewSwift.ToastView",
+                "usr": "s:14ToastViewSwift0aB0P"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift0A0C4view6configAcA0aB0_p_AA0A13ConfigurationVtcfc",
+            "mangledName": "$s14ToastViewSwift0A0C4view6configAcA0aB0_p_AA0A13ConfigurationVtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(haptic:after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackType",
+                "printedName": "UIKit.UINotificationFeedbackGenerator.FeedbackType",
+                "usr": "c:@E@UINotificationFeedbackType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C4show6haptic5afterySo26UINotificationFeedbackTypeV_SdtF",
+            "mangledName": "$s14ToastViewSwift0A0C4show6haptic5afterySo26UINotificationFeedbackTypeV_SdtF",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C4show5afterySd_tF",
+            "mangledName": "$s14ToastViewSwift0A0C4show5afterySd_tF",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C5close10completionyyycSg_tF",
+            "mangledName": "$s14ToastViewSwift0A0C5close10completionyyycSg_tF",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableTapToClose",
+            "printedName": "enableTapToClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C16enableTapToCloseyyF",
+            "mangledName": "$s14ToastViewSwift0A0C16enableTapToCloseyyF",
+            "moduleName": "ToastViewSwift",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toastOnTap",
+            "printedName": "toastOnTap(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITapGestureRecognizer",
+                "printedName": "UIKit.UITapGestureRecognizer",
+                "usr": "c:objc(cs)UITapGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A0C10toastOnTapyySo22UITapGestureRecognizerCF",
+            "mangledName": "$s14ToastViewSwift0A0C10toastOnTapyySo22UITapGestureRecognizerCF",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ToastViewSwift0A0C",
+        "mangledName": "$s14ToastViewSwift0A0C",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastConfiguration",
+        "printedName": "ToastConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "direction",
+            "printedName": "direction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "ToastViewSwift.Toast.Direction",
+                "usr": "s:14ToastViewSwift0A0C9DirectionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV9directionAA0A0C9DirectionOvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV9directionAA0A0C9DirectionOvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Direction",
+                    "printedName": "ToastViewSwift.Toast.Direction",
+                    "usr": "s:14ToastViewSwift0A0C9DirectionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV9directionAA0A0C9DirectionOvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV9directionAA0A0C9DirectionOvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoHide",
+            "printedName": "autoHide",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV8autoHideSbvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV8autoHideSbvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV8autoHideSbvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV8autoHideSbvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enablePanToClose",
+            "printedName": "enablePanToClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV16enablePanToCloseSbvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV16enablePanToCloseSbvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV16enablePanToCloseSbvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV16enablePanToCloseSbvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayTime",
+            "printedName": "displayTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV11displayTimeSdvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV11displayTimeSdvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV11displayTimeSdvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV11displayTimeSdvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animationTime",
+            "printedName": "animationTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV13animationTimeSdvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV13animationTimeSdvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV13animationTimeSdvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV13animationTimeSdvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enteringAnimation",
+            "printedName": "enteringAnimation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationType",
+                "printedName": "ToastViewSwift.Toast.AnimationType",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV17enteringAnimationAA0A0C0F4TypeOvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV17enteringAnimationAA0A0C0F4TypeOvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationType",
+                    "printedName": "ToastViewSwift.Toast.AnimationType",
+                    "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV17enteringAnimationAA0A0C0F4TypeOvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV17enteringAnimationAA0A0C0F4TypeOvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exitingAnimation",
+            "printedName": "exitingAnimation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationType",
+                "printedName": "ToastViewSwift.Toast.AnimationType",
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV16exitingAnimationAA0A0C0F4TypeOvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV16exitingAnimationAA0A0C0F4TypeOvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationType",
+                    "printedName": "ToastViewSwift.Toast.AnimationType",
+                    "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV16exitingAnimationAA0A0C0F4TypeOvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV16exitingAnimationAA0A0C0F4TypeOvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV4viewSo6UIViewCSgvp",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV4viewSo6UIViewCSgvp",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV4viewSo6UIViewCSgvg",
+                "mangledName": "$s14ToastViewSwift0A13ConfigurationV4viewSo6UIViewCSgvg",
+                "moduleName": "ToastViewSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(direction:autoHide:enablePanToClose:displayTime:animationTime:enteringAnimation:exitingAnimation:attachTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastConfiguration",
+                "printedName": "ToastViewSwift.ToastConfiguration",
+                "usr": "s:14ToastViewSwift0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Direction",
+                "printedName": "ToastViewSwift.Toast.Direction",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A0C9DirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationType",
+                "printedName": "ToastViewSwift.Toast.AnimationType",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationType",
+                "printedName": "ToastViewSwift.Toast.AnimationType",
+                "hasDefaultArg": true,
+                "usr": "s:14ToastViewSwift0A0C13AnimationTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ToastViewSwift0A13ConfigurationV9direction8autoHide16enablePanToClose11displayTime09animationM017enteringAnimation07exitingP006attachJ0AcA0A0C9DirectionO_S2bS2dAM0P4TypeOAQSo6UIViewCSgtcfc",
+            "mangledName": "$s14ToastViewSwift0A13ConfigurationV9direction8autoHide16enablePanToClose11displayTime09animationM017enteringAnimation07exitingP006attachJ0AcA0A0C9DirectionO_S2bS2dAM0P4TypeOAQSo6UIViewCSgtcfc",
+            "moduleName": "ToastViewSwift",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ToastViewSwift0A13ConfigurationV",
+        "mangledName": "$s14ToastViewSwift0A13ConfigurationV",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastDelegate",
+        "printedName": "ToastDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "willShowToast",
+            "printedName": "willShowToast(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A8DelegateP08willShowA0yyAA0A0CF",
+            "mangledName": "$s14ToastViewSwift0A8DelegateP08willShowA0yyAA0A0CF",
+            "moduleName": "ToastViewSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToastViewSwift.ToastDelegate>",
+            "sugared_genericSig": "<Self where Self : ToastViewSwift.ToastDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didShowToast",
+            "printedName": "didShowToast(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A8DelegateP07didShowA0yyAA0A0CF",
+            "mangledName": "$s14ToastViewSwift0A8DelegateP07didShowA0yyAA0A0CF",
+            "moduleName": "ToastViewSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToastViewSwift.ToastDelegate>",
+            "sugared_genericSig": "<Self where Self : ToastViewSwift.ToastDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willCloseToast",
+            "printedName": "willCloseToast(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A8DelegateP09willCloseA0yyAA0A0CF",
+            "mangledName": "$s14ToastViewSwift0A8DelegateP09willCloseA0yyAA0A0CF",
+            "moduleName": "ToastViewSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToastViewSwift.ToastDelegate>",
+            "sugared_genericSig": "<Self where Self : ToastViewSwift.ToastDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didCloseToast",
+            "printedName": "didCloseToast(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0A8DelegateP08didCloseA0yyAA0A0CF",
+            "mangledName": "$s14ToastViewSwift0A8DelegateP08didCloseA0yyAA0A0CF",
+            "moduleName": "ToastViewSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToastViewSwift.ToastDelegate>",
+            "sugared_genericSig": "<Self where Self : ToastViewSwift.ToastDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ToastViewSwift0A8DelegateP",
+        "mangledName": "$s14ToastViewSwift0A8DelegateP",
+        "moduleName": "ToastViewSwift",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastViewSwift"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastView",
+        "printedName": "ToastView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createView",
+            "printedName": "createView(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Toast",
+                "printedName": "ToastViewSwift.Toast",
+                "usr": "s:14ToastViewSwift0A0C"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ToastViewSwift0aB0P06createB03foryAA0A0C_tF",
+            "mangledName": "$s14ToastViewSwift0aB0P06createB03foryAA0A0C_tF",
+            "moduleName": "ToastViewSwift",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToastViewSwift.ToastView>",
+            "sugared_genericSig": "<Self where Self : ToastViewSwift.ToastView>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14ToastViewSwift0aB0P",
+        "mangledName": "$s14ToastViewSwift0aB0P",
+        "moduleName": "ToastViewSwift",
+        "genericSig": "<τ_0_0 : UIKit.UIView>",
+        "sugared_genericSig": "<Self : UIKit.UIView>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 478,
+      "length": 2,
+      "value": "58"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 510,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 567,
+      "length": 4,
+      "value": "0.13"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 580,
+      "length": 4,
+      "value": "0.13"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 592,
+      "length": 4,
+      "value": "0.13"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 605,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 665,
+      "length": 4,
+      "value": "0.99"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 678,
+      "length": 4,
+      "value": "0.99"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 690,
+      "length": 4,
+      "value": "0.99"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 703,
+      "length": 4,
+      "value": "1.00"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1185,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1486,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1584,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1848,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1991,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2264,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2424,
+      "length": 3,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2850,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2963,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3043,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3126,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3210,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3298,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3347,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3358,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3422,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3466,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3497,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 3566,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/AppleToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 14,
+      "value": "\"ToastViewSwift.AppleToastView\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 640,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 708,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 875,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2152,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2433,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 2774,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2903,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/IconAppleToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 138,
+      "length": 18,
+      "value": "\"ToastViewSwift.IconAppleToastView\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/TextAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/TextAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1016,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/TextAppleToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1285,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/TextAppleToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastViews\/AppleToastView\/TextAppleToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 135,
+      "length": 13,
+      "value": "\"ToastViewSwift.TextToastView\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7007,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "StringLiteral",
+      "offset": 8306,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9152,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9290,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 9437,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9823,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10088,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10417,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/Toast.swift",
+      "kind": "FloatLiteral",
+      "offset": 11981,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1306,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 1428,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2390,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2398,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2419,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2425,
+      "length": 4,
+      "value": "-100"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2553,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "FloatLiteral",
+      "offset": 2561,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2582,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2588,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2921,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/calfa\/zentity\/testing\/Magic\/Pods\/ToastViewSwift\/Sources\/Toast\/ToastConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2951,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

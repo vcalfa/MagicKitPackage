@@ -1,0 +1,16 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Magic
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import Magic
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public class MagicView {
+  public init(_ doMagic: Swift.String)
+  public func abrakaDabra()
+  public func rndAbrakaDabra()
+  @objc deinit
+}
